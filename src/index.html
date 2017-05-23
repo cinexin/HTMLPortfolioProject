@@ -4,15 +4,28 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
       <link rel="stylesheet" href="main.css">
+      <link rel="import" href="nav.html">
+      <script src="js/jquery-3.2.1.min.js"></script>
+
       <title>Resume</title>
     </head>
     <body>
-        <section class="header">
-            <h1>Miguel Ángel Guillamón Carrasco</h1>
-            <h2>Computing Engineer</h2>
-            
-        </section>
-        
+        <div id="header-placeholder">
+          <script>
+            $(function(){
+              $("#header-placeholder").load("header.html");
+            });
+          </script>
+        </div>
+
+
+        <div id="nav-placeholder">
+        </div>
+        <script>
+          $(function(){
+            $("#nav-placeholder").load("nav.html");
+          });
+        </script>
         <section class="tagline">
             <h3>Learn more about me</h3>
             <p>I'm a computing engineer with 10+ years of experience in the software development field. I've learnt to listen to the clients, and translate their needs into software. Passionate about software engineering and always trying to learn new things.</p>
@@ -24,7 +37,7 @@
             <ul>
                 <li>Java EE</li>
                 <li>Oracle</li>
-                <li>SQL/PL-SQL</li>
+                <li>SQL / PL-SQL</li>
                 <li>Unix and Shell Scripting</li>
                 <li>Hibernate</li>
                 <li>Spring</li>
@@ -39,14 +52,9 @@
                 <li>XML / JSON</li>
             </ul>
         </section>
-        
-        <section class="contact">
-            <h3>Contact me</h3>
-            <p>Drop me a mail: 
-                <a href="mailto:miguicar@alumni.upv.es">miguicar@alumni.upv.es</a> / <a href="mailto:maguillamoncarrasco@gmail.com">maguillamoncarrasco@gmail.com</a></p>
-            <p>
-                Also, visit my github if you want: <a target="_blank" href="https://github.com/cinexin">My GitHub</a> or my LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/miguel-%C3%A1ngel-guillam%C3%B3n-carrasco-659084137/">My LinkedIn</a>
-            </p>
-        </section>
+
+
+
+
     </body>
 </html>

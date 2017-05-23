@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <link rel="stylesheet" href="main.css">
+    <link rel="import" href="nav.html">
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <title>Resume</title>
+  </head>
+
+  <body>
+    <div id="header-placeholder">
+      <script>
+        $(function(){
+          $("#header-placeholder").load("header.html");
+        });
+      </script>
+    </div>
+
+
+    <div id="nav-placeholder">
+    </div>
+    <script>
+      $(function(){
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <section class="contact">
+        <h3>Contact me</h3>
+        <ul>
+          <li>
+            Mobile: (+34) 652272058
+          </li>
+          <li>
+            e-mail (1): <a href="mailto:miguicar@alumni.upv.es">miguicar@alumni.upv.es</a>
+          </li>
+          <li>
+            e-mail (2): <a href="mailto:maguillamoncarrasco@gmail.com">maguillamoncarrasco@gmail.com</a>
+          </li>
+          <li>
+            twitter: <a target="_blank" href="https://twitter.com/cineexin">@cineexin</a>
+          </li>
+          <li>
+            github: <a target="_blank" href="https://github.com/cinexin">my github</a>
+          </li>
+        </ul>
+    </section>
+  </body>
+</html>
