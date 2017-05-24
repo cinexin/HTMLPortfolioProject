@@ -65,7 +65,24 @@ section {
   font-size: 1.5em;
 }
 
+.language-list {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
 
+.languages {
+  margin: 2em;
+  padding: 1.3em;
+  font-size: 0.9em;
+}
+
+.languages li {
+  list-style: none;
+  line-height: 1.4em;
+  word-break: break-all;
+  text-align: left;
+}
 
 .navigation_menu {
     text-align: center;
@@ -93,8 +110,8 @@ section {
 
 
 .skills ul {
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
+  -webkit-column-count: 32; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
   column-count: 2;
   margin-top: 1.2em;
   margin-left: 1.3em;
