@@ -13,6 +13,10 @@ body {
   margin: auto;
 }
 
+h3 {
+  margin-bottom: 1.2em;
+}
+
 p {
   text-align: justify;
 }
@@ -37,6 +41,15 @@ section {
   list-style: none;
 }
 
+.education {
+  margin: 2em;
+  line-height: 1.5em;
+  padding: 1.5em;
+}
+
+.education ol {
+  list-style: none;
+}
 
 .header {
   text-align: center;
@@ -77,9 +90,7 @@ section {
   line-height: 1.5em;
 }
 
-.skills h3 {
-  margin-bottom: 1.2em;
-}
+
 
 .skills ul {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
